@@ -1,0 +1,124 @@
+javascripts:
+  defaults: 
+    - prototype
+    - builder
+    - effects
+    - dragdrop
+    - controls
+    - slider
+    - core_extensions
+    - hmenu/hmenu
+    - jquery/jquery
+    - jquery/jquery.blockUI
+    - jquery/jquery.dimensions
+    - jquery/jquery.validate
+    - jquery/jquery.hoverIntent
+    - jquery/jquery.cluetip
+    - jquery/jquery.MetaData
+    - jquery/jquery.rating
+    - calendar
+    - calendar-en
+    - calendar-setup
+    - history/rsh
+    - application
+    - library
+    - slider
+    - controls_lb
+  index:
+    defaults:
+      - search
+      - active_filters/active_filters
+      - active_filters/filter
+      - active_filters/booker
+  search:
+    defaults:
+      - search
+      - active_filters/active_filters
+      - active_filters/filter
+      - active_filters/booker
+      - cart 
+  booking:
+    select:
+      - booking/select
+      - booking/cart_item
+      - jquery/jquery.mousewheel
+      - jquery/jquery.jScrollPane
+    verify:
+      - booking/verify
+      - booking/cart_item
+  account:
+    defaults:
+      - account
+    signup:
+      - jquery/jquery.validate
+  provider_homepage:
+    defaults:
+      - provider_homepage
+      - search
+      - active_filters/active_filters
+      - active_filters/filter
+      - active_filters/booker
+      - cart
+    directory:
+      - directory
+      
+   
+stylesheets:
+  defaults:
+    - jquery/jquery.cluetip
+    - jquery/jquery.rating
+    - /../javascripts/hmenu/skin-lb-nav
+    - /../javascripts/hmenu/skin-lb-tabs
+    - /../javascripts/hmenu/skin-lb-select
+    - main
+    - calendar
+    - controls
+    - lba
+    - rounded_box
+  index:
+    defaults:
+      - index
+  search:
+    defaults:
+      - column_layout
+      - results
+      - search
+      - cart
+  booking:
+    defaults:
+      - booking
+      - booking_info
+    select:
+      - jquery/jquery.jScrollPane      
+  login:
+    defaults:
+      - login
+  account:
+    defaults:
+      - column_layout 
+      - account
+      - grid
+      - booking_info
+    forgot_username:
+      - login
+    forgot_password:
+      - login
+    signup_confirm:
+      - login
+  info:
+    info:
+      - info
+  provider_homepage:
+    defaults:
+      - column_layout
+      - results
+      - provider_homepage
+      - cart
+      - grid
+    directory:
+      - directory
+    
+      
+      
+       
+      

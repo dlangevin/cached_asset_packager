@@ -1,0 +1,11 @@
+javascripts:
+  defaults: 
+    - test
+    - test/test_2
+  search:
+    defaults :
+      - search
+      - search2
+    results :
+      - abc
+      - def
